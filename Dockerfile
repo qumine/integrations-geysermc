@@ -4,7 +4,7 @@ FROM ${ARCH}openjdk:16-slim-buster
 VOLUME /data
 EXPOSE 8081
 
-COPY bluemap/ /home/qumine/
+COPY geysermc/ /home/qumine/
 
 RUN apt update \
 && apt install -y unzip wget \
