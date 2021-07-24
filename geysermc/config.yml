@@ -10,23 +10,23 @@ remote:
   port: 25565
   auth-type: online
   forward-hostname: true
-command-suggestions: "true"
-passthrough-motd: "true"
-passthrough-protocol-name: "false"
-passthrough-player-counts: "true"
-legacy-ping-passthrough: "false"
-ping-passthrough: "false"
+command-suggestions: true
+passthrough-motd: true
+passthrough-protocol-name: false
+passthrough-player-counts: true
+legacy-ping-passthrough: false
+ping-passthrough: false
 ping-passthrough-interval: 3
 forward-player-ping: true
 max-players: "100"
-debug-mode: "false"
+debug-mode: false
 general-thread-pool: "32"
-allow-third-party-capes: "true"
-allow-third-party-ears: "true"
-cache-chunks: "false"
+allow-third-party-capes: true
+allow-third-party-ears: true
+cache-chunks: false
 cache-images: "0"
-above-bedrock-nether-building: "true"
-force-resource-packs: "true"
+above-bedrock-nether-building: true
+force-resource-packs: true
 metrics:
-  enabled: "false"
+  enabled: false
   uuid: "generateduuid"
