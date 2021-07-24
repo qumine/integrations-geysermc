@@ -15,7 +15,7 @@ passthrough-motd: "true"
 passthrough-protocol-name: "false"
 passthrough-player-counts: "true"
 legacy-ping-passthrough: "false"
-ping-passthrough: "true"
+ping-passthrough: "false"
 ping-passthrough-interval: 3
 forward-player-ping: true
 max-players: "100"
