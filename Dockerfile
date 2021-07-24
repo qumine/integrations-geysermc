@@ -11,7 +11,7 @@ RUN microdnf update \
 && groupadd -g 4242 -r qumine \
 && useradd -g 4242 -m -N -r -u 4242 qumine
 
-RUN curl -L --output /home/qumine/geysermc.jar https://ci.opencollab.dev/job/GeyserMC/job/Geyser/job/master/775/artifact/bootstrap/standalone/target/Geyser.jar \
+RUN curl -L --output /home/qumine/geysermc.jar https://ci.opencollab.dev/job/GeyserMC/job/Geyser/job/master/778/artifact/bootstrap/standalone/target/Geyser.jar \
 && chown -R qumine:qumine /home/qumine
 
 USER qumine
